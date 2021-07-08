@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C26CE76526979CD700505593 /* HourCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE76426979CD700505593 /* HourCards.swift */; };
 		C2C597BD26977CF0000B9B0D /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C597BC26977CF0000B9B0D /* WeatherApp.swift */; };
 		C2C597BF26977CF0000B9B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C597BE26977CF0000B9B0D /* ContentView.swift */; };
 		C2C597C126977CF3000B9B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C597C026977CF3000B9B0D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C26CE76426979CD700505593 /* HourCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourCards.swift; sourceTree = "<group>"; };
 		C2C597B926977CF0000B9B0D /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C597BC26977CF0000B9B0D /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		C2C597BE26977CF0000B9B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				C2C597CE26978CEF000B9B0D /* WeatherCover.swift */,
+				C26CE76426979CD700505593 /* HourCards.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26CE76526979CD700505593 /* HourCards.swift in Sources */,
 				C2C597CF26978CEF000B9B0D /* WeatherCover.swift in Sources */,
 				C2C597CC26977DFA000B9B0D /* HomeView.swift in Sources */,
 				C2C597BF26977CF0000B9B0D /* ContentView.swift in Sources */,

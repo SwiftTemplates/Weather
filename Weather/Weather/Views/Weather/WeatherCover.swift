@@ -13,6 +13,7 @@ struct WeatherCover: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .top) {
+                // Gradient rectangle
                 RoundedRectangle(cornerRadius: 25, style: .continuous)
                     .fill(LinearGradient(gradient: Gradient(colors: [.purple, .blue]), startPoint: .top, endPoint: .bottom))
                     .frame(width: geometry.size.width, height: 200)
@@ -37,18 +38,21 @@ struct WeatherCoverData: View {
     var body: some View {
         VStack {
             HStack {
+                // Title
                 Text(title)
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()
             }
             HStack {
+                // Icon
                 Image(systemName: icon)
                     .foregroundColor(.white)
                     .font(.system(size: 40))
                     .padding()
             }
             HStack {
+                // Temperatures
                 Text(temps)
                     .foregroundColor(.white)
                     .padding()

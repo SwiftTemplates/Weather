@@ -13,11 +13,14 @@ struct ContentView: View {
             HomeView()
                 .navigationTitle("Your Forecast")
                 .toolbar {
+                    // Left bar
                     ToolbarItemGroup(placement: .navigationBarLeading) {
+                        // Date
                         Text("July 30, 2021")
                             .font(.subheadline)
                             .fontWeight(.black)
                             .foregroundColor(.secondary)
+                        
                     }
                 }
         
